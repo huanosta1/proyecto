@@ -13,8 +13,7 @@
 <input type="submit" name="ej" value="Ejecutar" />
 </form>
 <?php
-hola q tal: 
-como estas_
+echo "hola q tal como estas";
 if(isset($_POST['ej']))
 {
 include('calculadora.php');
